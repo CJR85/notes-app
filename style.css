@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -23,6 +24,10 @@ body {
   border-radius: 3px;
   padding: 0.5rem 1rem;
   cursor: pointer;
+}
+
+.add:active {
+  transform: scale(0.98);
 }
 
 .note {
@@ -56,6 +61,10 @@ body {
   border: none;
   height: 400px;
   width: 100%;
+  padding: 20px;
+}
+
+.main {
   padding: 20px;
 }
 
